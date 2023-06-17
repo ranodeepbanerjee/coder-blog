@@ -1,6 +1,7 @@
 "use client"
 import React from "react";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 import { useState } from "react";
 
 const page = () => {
@@ -93,6 +94,7 @@ const page = () => {
           </form>
         )}
       </div>
+      <Footer />
     </>
   );
 };
