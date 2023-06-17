@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 
 const page = () => {
   return (
@@ -20,6 +21,7 @@ const page = () => {
           Thank you for being a part of Coder Blog. We hope you find our platform valuable and enjoy your learning journey with us. Happy coding!
         </p>
       </div>
+    <Footer />
     </>
   )
 }
