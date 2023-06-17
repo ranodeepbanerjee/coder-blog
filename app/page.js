@@ -1,6 +1,7 @@
 "use client"
 import Image from "next/image";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import { useState,useEffect } from "react";
 import Link from "next/link";
 import { Client, Databases, ID, Query } from "appwrite";
@@ -47,7 +48,7 @@ export default function Home() {
         ))}
       </div>
     </div>
-    <p className="text-center text-gray-500 mt-4">Made by Ranodeep Banerjee</p>
+    <Footer />
     </>
   );
 }
