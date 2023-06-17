@@ -1,5 +1,6 @@
 "use client";
 import Navbar from "@/app/components/Navbar";
+import Footer from "@/app/components/Footer";
 import Image from "next/image";
 import { useRouter } from "next/router";
 import { useState, useEffect } from "react";
@@ -49,6 +50,7 @@ const BlogPage = ({ params }) => {
         </div>
         <p className="text-gray-600" dangerouslySetInnerHTML={{ __html: blogPost?.content}}></p>
       </div>
+      <Footer />
     </>
   );
 };
